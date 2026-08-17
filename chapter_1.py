@@ -31,3 +31,8 @@ strPrice = str(price)
 
 print(f"Is user's name given: {isUsernameGiven}")
 print(f"What's the overall GPA: {overallGPA}")
+
+#? Input
+fullName = input("Enter your full name: ")
+userWeight = int(input("Enter your weight: "))    #* This is typecasting the String to Integer
+print(f"You are {fullName} and you weigh {userWeight} KG")

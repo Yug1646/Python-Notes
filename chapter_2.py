@@ -26,6 +26,19 @@ friends //=  2   #* Floor Division
 
 print(f"You have {friends} friends")
 
+#? Logical Operators
+
+age = 20
+has_id = True
+is_banned = False
+
+if age > 18 and has_id:
+    print("You can enter")
+if age < 18 or is_banned:
+    print("You cannot enter")
+if not is_banned:
+    print("You are not banned")
+
 #? Math Functions
 x = 3.14
 y = -4

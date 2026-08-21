@@ -13,3 +13,7 @@ elif age < 18:
     print("You are Child")
 else:
     print("Enter valid Age")
+
+#? Conditional Expression
+result = "You can vote" if age >= 18 else "You can't vote"
+print(result)

@@ -26,6 +26,17 @@ for i in range(1,11,2):
 for item in cart:
     print(item)
 
+#? Nested Loop
+
+rows = int(input("Enter number of rows: "))
+columns = int(input("Enter number of columns: "))
+symbol = input("Enter Symbol: ")
+
+for x in range(rows):
+    for y in range(columns):
+        print(symbol,end = "")
+    print()
+
 #? Break Statement
 for i in range(1,11):
     if i == 5:

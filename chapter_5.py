@@ -74,7 +74,7 @@ cart.discard("Screwdriver")
 #* Clear
 cart.clear()
 
-# print(cart)
+print(cart)
 
 #* Union
 set3 = set1.union(set2)
@@ -93,3 +93,16 @@ set3 = set1.symmetric_difference(set2)
 set3 = set1 ^ set2
 
 print(set3)
+
+
+#? Tuples : ()
+
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+
+#* Count
+result = thistuple.count(5)
+
+#* Index
+result = thistuple.index(8)
+
+print(result)

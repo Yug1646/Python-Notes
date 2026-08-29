@@ -50,3 +50,46 @@ elementIndex = fruits.index("Litchi")
 print(fruits)
 print(elementCount)
 print(elementIndex)
+
+#? Sets: {}
+
+cart = {"Milk","Milk","Chocolate","Fruits","Vegetables","Screwdriver","Tester"}
+fruits = ["Mango","Coconut"]
+
+set1 = {"a", "b", "c"}
+set2 = {"a", 2, 3}
+
+#* Add
+cart.add("Frames")
+
+#* Update
+cart.update(fruits)
+
+#* Remove
+cart.remove("Tester")
+
+#* Discard
+cart.discard("Screwdriver")
+
+#* Clear
+cart.clear()
+
+# print(cart)
+
+#* Union
+set3 = set1.union(set2)
+set3 = set1 | set2
+
+#* Intersection
+set3 = set1.intersection(set2)
+set3 = set1 & set2
+
+#* Difference
+set3 = set1.difference(set2)
+set3 = set1 - set2
+
+#* Symmetric Differences
+set3 = set1.symmetric_difference(set2)
+set3 = set1 ^ set2
+
+print(set3)

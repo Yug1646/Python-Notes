@@ -35,3 +35,24 @@ def greetings(msg,firstName,middleName,lastName):
     return msg + " " + firstName + " " + middleName + " " + lastName
 greetUser = greetings("Hello", firstName = "Tony", lastName = "Stark", middleName = "Howard")
 print(greetUser)
+
+#? Arbitary Arguments
+
+#* *args
+def add(*nums):
+    total = 0
+    for num in nums:
+        total += num
+    return total
+
+print(f"Sum : {add(1,2,3,4,5)}")
+
+#* **kwargs
+def print_address(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key} : {value}")
+print_address(street = "123 Fake ST.",
+            apt = "100",
+            city = "NYC",
+            state = "W. DC",
+            zip = "1646")

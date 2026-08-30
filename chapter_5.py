@@ -94,7 +94,6 @@ set3 = set1 ^ set2
 
 print(set3)
 
-
 #? Tuples : ()
 
 thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
@@ -106,3 +105,41 @@ result = thistuple.count(5)
 result = thistuple.index(8)
 
 print(result)
+
+
+#? Dictionaries
+
+carDetails = {
+    "brand" : "Tesla",
+    "model" : "S Plaid",
+    "color" : "Red",
+    "year" : 2025,
+    "electric" : True
+}
+
+#* Accessing
+print(carDetails["brand"])
+
+#* Get
+result = carDetails.get("model")
+
+#* Key
+result = carDetails.keys()
+
+#* Values
+result = carDetails.values()
+
+#* Items
+result = carDetails.items()
+
+#* Update
+carDetails.update({"year" : 2026})
+
+#* Pop
+carDetails.pop("color")
+carDetails.popitem()
+
+#* Del
+# del carDetails
+
+print(carDetails)

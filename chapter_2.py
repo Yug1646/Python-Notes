@@ -39,6 +39,14 @@ if age < 18 or is_banned:
 if not is_banned:
     print("You are not banned")
 
+#? Membership Operators
+email = "tony@gmail.com"
+if '@' in email:
+    print("Email is valid")
+else:
+    print("Email is not valid")
+
+
 #? Math Functions
 x = 3.14
 y = -4
